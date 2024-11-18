@@ -4,20 +4,24 @@
 	h2 {
 		font-weight: 400;
 	}
+
 	.NewsList {
-		display: grid;
-		grid-template-columns: repeat(7, 1fr);
-		grid-template-rows: repeat(4, 1fr);
+		display: flex;
 		gap: 1rem;
 
-		.TrendingNewsCard:nth-of-type(1) {
-			grid-column: span 3;
-			grid-row: span 3;
+		.TopNews {
+			flex-basis: 40%;
 		}
 
-		.TrendingNewsCard {
-			grid-column: span 2;
-			grid-row: span 2;
+		.OtherNews {
+			flex-basis: 60%;
+			display: flex;
+			flex-flow: row wrap;
+			gap: 1rem;
+
+			.TrendingNewsCard {
+				flex-basis: calc(50% - 1rem);
+			}
 		}
 	}
 }

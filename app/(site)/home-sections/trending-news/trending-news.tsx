@@ -49,16 +49,27 @@ export default function TrendingNews() {
 		<section className="TrendingNews">
 			<h2>Trending News</h2>
 			<div className="NewsList">
-				{trendingNews.map((item) => {
-					return (
-						<TrendingNewsCard
-							imgAlt={item.imgAlt}
-							tag={item.tag}
-							imgSrc={item.imgSrc}
-							description={item.description}
-						/>
-					);
-				})}
+				<div className="TopNews">
+					<TrendingNewsCard
+						imgAlt={trendingNews[0].imgAlt}
+						tag={trendingNews[0].tag}
+						imgSrc={trendingNews[0].imgSrc}
+						description={trendingNews[0].description}
+					/>
+				</div>
+				<div className="OtherNews">
+					{trendingNews.slice(1).map((item) => {
+						return (
+							<TrendingNewsCard
+								imgAlt={item.imgAlt}
+								tag={item.tag}
+								imgSrc={item.imgSrc}
+								description={item.description}
+								key={item.imgSrc}
+							/>
+						);
+					})}
+				</div>
 			</div>
 		</section>
 	);

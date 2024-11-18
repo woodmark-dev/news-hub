@@ -1,5 +1,6 @@
 import Image from "next/image";
 import "./trending-news-card.css";
+import Link from "next/link";
 
 type tredingNews = {
 	imgSrc: string;
@@ -15,11 +16,12 @@ export default function TrendingNewsCard({
 	description,
 }: tredingNews) {
 	return (
-		<figure className="TrendingNewsCard">
+		<Link href="#" className="TrendingNewsCard">
 			<div className="ImageWrapper">
 				<Image width={350} height={239} src={imgSrc} alt={imgAlt} />
 			</div>
 			<figcaption>
+				<div className="Placeholder"></div>
 				<div className="Content">
 					<p className="Tag">
 						<span>{tag}</span>
@@ -27,6 +29,6 @@ export default function TrendingNewsCard({
 					<article className="Description">{description}</article>
 				</div>
 			</figcaption>
-		</figure>
+		</Link>
 	);
 }
