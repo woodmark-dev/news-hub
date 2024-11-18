@@ -1,0 +1,45 @@
+.NavBar {
+	display: flex;
+	align-items: center;
+	gap: 30px;
+	background-color: var(--secondary-color);
+	color: rgba(255, 255, 255, 0.856);
+	margin: 0px var(--site-margin) 0px var(--site-margin);
+	ul {
+		list-style: none;
+		display: flex;
+		justify-content: space-between;
+		flex-basis: 80%;
+
+		li {
+			a {
+				&[data-active="active"] {
+					color: white;
+					font-weight: 600;
+				}
+			}
+		}
+	}
+
+	.SearchBox {
+		flex-basis: 20%;
+		position: relative;
+
+		input {
+			padding: 10px;
+			padding-right: 50px;
+			border-radius: 10px;
+			border: none;
+
+			&:focus {
+				outline: none;
+			}
+		}
+
+		.SearchIcon {
+			position: absolute;
+			right: 30px;
+			top: 5px;
+		}
+	}
+}

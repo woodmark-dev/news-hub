@@ -1,0 +1,27 @@
+.SiteMap {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	padding: 1.5rem var(--site-margin);
+	background-color: var(--secondary-color);
+	color: white;
+	gap: 2.5rem;
+
+	.SocialMediaBox {
+		grid-row: span 2;
+		header {
+			padding-bottom: 10px;
+			h6 {
+				margin: 0px;
+			}
+		}
+		.MediaLinks {
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			padding-right: 8rem;
+			a {
+				justify-self: start;
+				align-self: center;
+			}
+		}
+	}
+}
