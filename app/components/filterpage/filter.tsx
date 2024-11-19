@@ -10,10 +10,7 @@ const Filter = () => {
     <div className="filter-page">
       {/* Header Section */}
       <header className="header">
-        <div className="header-content">
-        <Logo />
-        
-        </div>
+       
         <hr className="header-line" />
 <div className="top">
         <div className="space-x-4 menu">
@@ -34,8 +31,7 @@ const Filter = () => {
         <RightSection />
       </main>
 
-      {/* Footer Section */}
-      <Footer />
+      
     </div>
   );
 };

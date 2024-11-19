@@ -52,7 +52,9 @@ const LeftSection = () => {
           <h2 className="news-title">{item.title}</h2>
           <p className="news-description">{item.description}</p>
         </div>
+        
       ))}
+      
 
 
     </div>
