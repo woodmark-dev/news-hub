@@ -12,9 +12,8 @@
 			position: relative;
 			span {
 				position: relative;
-				top: -1px;
+				top: -5px;
 				right: 5px;
-				left: 1px;
 			}
 		}
 	}

@@ -11,14 +11,14 @@
 	--secondary-color: #550e0e;
 	--site-margin: 4vw;
 	--darker-background-color: #d9d9d929;
-
 	--black: #050d14;
 }
+
 html {
 	box-sizing: border-box;
 	background-color: white;
-	/* font-family: var(--font-inter); */
 }
+
 *,
 *:before,
 *:after {
