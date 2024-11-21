@@ -1,4 +1,4 @@
-import TrendingNewsCard from "../../home-components/trending-news-card/trending-news-card";
+import NewsCard from "../../home-components/news-card/news-card";
 import "./trending-news.css";
 
 const trendingNews: {
@@ -50,22 +50,24 @@ export default function TrendingNews() {
 			<h2>Trending News</h2>
 			<div className="NewsList">
 				<div className="TopNews">
-					<TrendingNewsCard
+					<NewsCard
 						imgAlt={trendingNews[0].imgAlt}
 						tag={trendingNews[0].tag}
 						imgSrc={trendingNews[0].imgSrc}
 						description={trendingNews[0].description}
+						type="overlay"
 					/>
 				</div>
 				<div className="OtherNews">
 					{trendingNews.slice(1).map((item) => {
 						return (
-							<TrendingNewsCard
+							<NewsCard
 								imgAlt={item.imgAlt}
 								tag={item.tag}
 								imgSrc={item.imgSrc}
 								description={item.description}
 								key={item.imgSrc}
+								type="overlay"
 							/>
 						);
 					})}

@@ -1,0 +1,28 @@
+.AltHeader {
+	display: flex;
+	align-items: center;
+	position: relative;
+	gap: 10px;
+
+	h2 {
+		font-size: var(--h4);
+		text-transform: capitalize;
+		font-weight: 400;
+	}
+
+	p {
+		position: relative;
+		bottom: -0.8rem;
+		&:nth-of-type(1) {
+			color: red;
+			flex-grow: 1;
+			border-bottom: 1px solid black;
+		}
+
+		&:nth-of-type(2) {
+			color: red;
+			flex-grow: 1;
+			border-bottom: 1px solid black;
+		}
+	}
+}

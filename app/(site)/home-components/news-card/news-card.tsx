@@ -1,22 +1,23 @@
 import Image from "next/image";
-import "./trending-news-card.css";
-import Link from "next/link";
+import "./news-card.css";
 
 type tredingNews = {
 	imgSrc: string;
 	imgAlt: string;
 	tag: string;
 	description: string;
+	type: string;
 };
 
-export default function TrendingNewsCard({
+export default function NewsCard({
 	imgSrc,
 	imgAlt,
 	tag,
 	description,
+	type,
 }: tredingNews) {
 	return (
-		<Link href="#" className="TrendingNewsCard">
+		<figure className="TrendingNewsCard" role="link" data-type={type}>
 			<div className="ImageWrapper">
 				<Image width={350} height={239} src={imgSrc} alt={imgAlt} />
 			</div>
@@ -27,8 +28,9 @@ export default function TrendingNewsCard({
 						<span>{tag}</span>
 					</p>
 					<article className="Description">{description}</article>
+					<p className="Time">1 hour ago</p>
 				</div>
 			</figcaption>
-		</Link>
+		</figure>
 	);
 }

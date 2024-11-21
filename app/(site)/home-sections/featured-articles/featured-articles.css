@@ -1,0 +1,22 @@
+.FeaturedArticles {
+	background-color: var(--darker-background-color);
+	padding: 0px var(--site-margin);
+
+	.ContentWrapper {
+		display: flex;
+		gap: 40px;
+		.LeftSide {
+			flex-basis: 65%;
+			display: flex;
+			flex-direction: column;
+			gap: 20px;
+		}
+
+		.RightSide {
+			flex-basis: 35%;
+			display: flex;
+			flex-direction: column;
+			gap: 30px;
+		}
+	}
+}
