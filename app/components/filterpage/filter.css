@@ -17,12 +17,13 @@
   .top .content {
     font-size: 16px;
     font-weight: 600;
-    margin-right: 100px;
+    margin-right: 120px;
   }
 
   .menu {
     display: flex;
     gap: 16px;
+    margin: 0px var(--site-margin);
   }
 
   .menu button {
@@ -49,10 +50,11 @@
     flex: 1;
     align-items: stretch;
     position: relative;
+    margin: 0px var(--site-margin);
 
     .vertical {
       border-right: 1px solid var(--black);
-      margin-top: -6.8%;
+      margin-top: -7.4%;
       margin-bottom: -4%;
     }
   }

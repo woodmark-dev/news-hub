@@ -1,0 +1,119 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+ 
+    .search-container {
+      display: flex; 
+      align-items: center; 
+      width: 100%;
+      max-width: 816px; 
+      margin: 0 auto; 
+      background-color: #e0e0e0; 
+      border-radius: 10px; 
+      padding: 0.1rem;
+     
+    }
+    
+
+
+    
+    .search-input {
+      flex: 1; 
+      padding: 0.8rem;
+      font-size: 1rem;
+      border: none; 
+      outline: none; 
+      background-color: transparent; 
+    }
+    
+    .search-input::placeholder {
+      color: #888; 
+    }
+    
+    .search-button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: var(--primary-color); 
+      color: white; 
+      padding: 0.4rem;
+      font-size: 1.2rem;
+      border: none;
+      border-radius: 5px; /* Match container's border radius */
+      cursor: pointer;
+    }
+    
+    .search-button:hover {
+      background-color: var(--primary-color); /* Darker red on hover */
+    }
+    
+    
+    .hl {
+      border-top: 1px solid var(--black);
+      width: 80%;
+      margin:0px var(--site-margin);
+    }  
+    
+  
+    .main {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto auto; 
+      gap: 1rem; 
+    }
+    
+    .main > section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      background-color: #f5f5f5; /* Light gray background */
+      border-radius: 8px;
+      height: 614px; 
+      width: 531px;
+    }
+    
+   
+    
+    .main .summary  {
+      grid-column: span 2; 
+      height: 614px; 
+      width: 525px;
+      background-color: #f5f5f5;
+      align-items: center;
+      text-align: center;
+    }
+    
+    
+    h2 {
+      margin-bottom: 1rem; 
+      font-size: var(--h6);
+      color: var(--black);
+      font-weight: 700;
+      margin:20px var(--site-margin);
+
+    }
+    
+    p{
+      padding: 20px var(--site-margin);
+    }
+
+   button {
+    background: var(--primary-color);
+    border: 1px ;
+    font-size: 14px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    margin: var(--site-margin);
+    padding:14px ;
+  }
+}
+  
+  
+   
+  
+ 
+  
