@@ -1,0 +1,25 @@
+.RecentArticles {
+	margin-top: 5rem;
+	header {
+		margin-bottom: 1rem;
+		position: relative;
+		display: flex;
+		gap: 10px;
+		h5 {
+			margin: 0px;
+			font-weight: 400;
+			text-transform: capitalize;
+		}
+		.HL {
+			position: relative;
+			flex-grow: 1;
+			border-bottom: 1px solid rgba(0, 0, 0, 0.411);
+			top: -10px;
+		}
+	}
+	.Body {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+	}
+}

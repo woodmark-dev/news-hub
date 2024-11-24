@@ -1,0 +1,25 @@
+.FeaturedNewsCard {
+	.Content {
+		height: 100%;
+		align-content: center;
+		header {
+			h4 {
+				margin: 0px;
+				margin-bottom: 1rem;
+				text-transform: capitalize;
+				font-weight: 400;
+			}
+		}
+		.MainContent {
+			display: flex;
+			flex-direction: column;
+			gap: 5px;
+
+			p {
+				&:nth-of-type(2) {
+					font-weight: 400;
+				}
+			}
+		}
+	}
+}

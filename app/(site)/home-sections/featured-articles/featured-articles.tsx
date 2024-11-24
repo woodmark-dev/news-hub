@@ -1,21 +1,26 @@
 import AltHeader from "../../home-components/alt-header/alt-header";
-import NewsCard from "../../home-components/news-card/news-card";
 import StayConnected from "../../home-components/stay-connected/stay-connected";
+import FeaturedNewsCard from "./components/featured-news-card/featured-news-card";
+import RecentArticles from "./components/recent-articles/recent-articles";
 import "./featured-articles.css";
 
 const featuredArticles: {
 	imgSrc: string;
 	imgAlt: string;
-	tag: string;
-	description: string;
+	heading: string;
+	summary: string;
 	id: number;
+	link: string;
+	date: string;
 }[] = [
 	{
 		id: 1,
 		imgAlt: "sports image",
 		imgSrc: "/featured-images/Rectangle15.png",
-		tag: "sports",
-		description:
+		heading: "sports",
+		link: "#",
+		date: "1 hr ago",
+		summary:
 			"Proin placerat quis sem a venenatis. Nullam sit amet diam eu libero lobortis laoreet. Praesent non ultrices lorem, id tristique sapien. Etiam interdum a ex volutpat mollis.",
 	},
 
@@ -23,8 +28,10 @@ const featuredArticles: {
 		id: 2,
 		imgAlt: "sports image",
 		imgSrc: "/featured-images/Rectangle16.png",
-		tag: "economy",
-		description:
+		heading: "economy",
+		link: "#",
+		date: "1 hr ago",
+		summary:
 			"Proin placerat quis sem a venenatis. Nullam sit amet diam eu libero lobortis laoreet. Praesent non ultrices lorem, id tristique sapien. Etiam interdum a ex volutpat mollis.",
 	},
 
@@ -32,43 +39,10 @@ const featuredArticles: {
 		id: 3,
 		imgAlt: "sports image",
 		imgSrc: "/featured-images/Rectangle17.png",
-		tag: "business",
-		description:
-			"Proin placerat quis sem a venenatis. Nullam sit amet diam eu libero lobortis laoreet. Praesent non ultrices lorem, id tristique sapien. Etiam interdum a ex volutpat mollis.",
-	},
-];
-
-const recentArticles: {
-	imgSrc: string;
-	imgAlt: string;
-	tag: string;
-	description: string;
-	id: number;
-}[] = [
-	{
-		id: 1,
-		imgAlt: "sports image",
-		imgSrc: "/featured-images/Rectangle15.png",
-		tag: "sports",
-		description:
-			"Proin placerat quis sem a venenatis. Nullam sit amet diam eu libero lobortis laoreet. Praesent non ultrices lorem, id tristique sapien. Etiam interdum a ex volutpat mollis.",
-	},
-
-	{
-		id: 2,
-		imgAlt: "sports image",
-		imgSrc: "/featured-images/Rectangle16.png",
-		tag: "economy",
-		description:
-			"Proin placerat quis sem a venenatis. Nullam sit amet diam eu libero lobortis laoreet. Praesent non ultrices lorem, id tristique sapien. Etiam interdum a ex volutpat mollis.",
-	},
-
-	{
-		id: 3,
-		imgAlt: "sports image",
-		imgSrc: "/featured-images/Rectangle17.png",
-		tag: "business",
-		description:
+		heading: "business",
+		link: "#",
+		date: "1 hr ago",
+		summary:
 			"Proin placerat quis sem a venenatis. Nullam sit amet diam eu libero lobortis laoreet. Praesent non ultrices lorem, id tristique sapien. Etiam interdum a ex volutpat mollis.",
 	},
 ];
@@ -80,20 +54,25 @@ export default function FeaturedArticles() {
 
 			<div className="ContentWrapper">
 				<div className="LeftSide">
-					{featuredArticles.map((item) => (
-						<NewsCard
-							imgAlt={item.imgAlt}
-							imgSrc={item.imgSrc}
-							tag={item.tag}
-							description={item.description}
-							key={item.id}
-							type="row-alignment"
-						/>
-					))}
+					{featuredArticles.map((item) => {
+						const { imgSrc, imgAlt, heading, summary, id, link, date } = item;
+						return (
+							<FeaturedNewsCard
+								key={id}
+								imgAlt={imgAlt}
+								imgSrc={imgSrc}
+								heading={heading}
+								summary={summary}
+								link={link}
+								date={date}
+							/>
+						);
+					})}
 				</div>
 
 				<div className="RightSide">
 					<StayConnected />
+					<RecentArticles />
 				</div>
 			</div>
 		</section>

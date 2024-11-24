@@ -1,0 +1,10 @@
+.VideoNewsCard {
+	.Content {
+		h4 {
+			margin: 0px;
+			font-size: var(--h5);
+			color: var(--primary-color);
+			font-weight: 400;
+		}
+	}
+}

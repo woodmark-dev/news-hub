@@ -1,0 +1,32 @@
+.TrendingNewsCard {
+	.Content {
+		height: 100%;
+		background-color: rgba(255, 255, 255, 0.192);
+		padding: 10px 20px;
+		header {
+			h4 {
+				margin: 0px;
+				background-color: var(--primary-color);
+				width: fit-content;
+				font-size: var(--h6);
+				padding: 5px 10px;
+				color: white;
+				text-transform: capitalize;
+			}
+		}
+		.MainContent {
+			color: white;
+			font-weight: 300;
+			margin-top: 8px;
+
+			.Summary {
+				font-weight: 400;
+			}
+
+			.Date {
+				font-size: calc(var(--h6) * 0.9);
+				margin-top: 3px;
+			}
+		}
+	}
+}

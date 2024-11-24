@@ -1,0 +1,8 @@
+.filterButton {
+	margin: 0px var(--site-margin);
+	text-align: end;
+
+	button {
+		text-transform: uppercase;
+	}
+}

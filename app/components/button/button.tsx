@@ -1,10 +1,8 @@
-interface ButtonProps {
-  label: string;
-
+import "./button.css";
+export default function Button({ text, type }: { text: string; type: string }) {
+	return (
+		<button className="Button" data-type={type}>
+			{text}
+		</button>
+	);
 }
-
-const Button = ({ label }: ButtonProps) => {
-  return <button>{label}</button>;
-};
-
-export default Button;
