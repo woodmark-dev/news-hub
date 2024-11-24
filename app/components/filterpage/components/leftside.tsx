@@ -1,4 +1,4 @@
-import './style/filter.css';
+import '../filter.css';
 
 
 const news : {
@@ -56,7 +56,7 @@ const LeftSection = () => {
       ))}
       
 
-
+     
     </div>
   );
 };
