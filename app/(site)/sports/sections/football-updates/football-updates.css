@@ -1,0 +1,32 @@
+.FootballUpdates {
+	margin: 0px var(--site-margin);
+	header {
+		margin: 2rem 0px;
+		h2 {
+			margin: 0px;
+			text-transform: capitalize;
+			font-weight: 400;
+		}
+	}
+	.BodyContent {
+		.TopSide {
+			display: flex;
+			gap: 2rem;
+			margin-bottom: 1.5rem;
+			&:nth-child(1) {
+				flex-basis: 65%;
+			}
+			&:nth-child(2) {
+				flex-basis: 35%;
+				font-weight: 400;
+			}
+		}
+		.BottomSide {
+			display: flex;
+			gap: 2rem;
+			.OtherFootBallUpdateCard {
+				flex-basis: calc(100% / 3);
+			}
+		}
+	}
+}

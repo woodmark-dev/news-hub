@@ -1,0 +1,30 @@
+.SportsUpdates {
+	margin: 0px var(--site-margin);
+	header {
+		margin: 2rem 0px;
+		h2 {
+			margin: 0px;
+			text-transform: capitalize;
+			font-weight: 400;
+		}
+	}
+
+	.BodyContent {
+		.TopSide {
+			color: white;
+			background-color: var(--secondary-color);
+			margin-bottom: 1.5rem;
+		}
+		.Line {
+			border-bottom: 1px solid var(--deem-black);
+			margin-bottom: 1.5rem;
+		}
+		.BottomSide {
+			display: flex;
+			gap: 1rem;
+			.OtherSportsUpdateCard {
+				flex-basis: calc(100% / 3);
+			}
+		}
+	}
+}

@@ -1,0 +1,18 @@
+.TopSportUpdateCard {
+	.Content {
+		align-content: center;
+		padding: 30px 30px;
+
+		.Category {
+			width: fit-content;
+			padding: 5px 25px;
+			border-radius: 5px;
+			background-color: var(--primary-color);
+			text-transform: capitalize;
+		}
+
+		h4 {
+			font-weight: 400;
+		}
+	}
+}
