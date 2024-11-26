@@ -1,0 +1,70 @@
+.NewsCard {
+	margin: 0px;
+
+	.PlayIcon {
+		display: none;
+	}
+
+	&[data-type="content-right"] {
+		display: flex;
+		gap: 2rem;
+
+		.ImageWrapper {
+			flex-basis: 40%;
+		}
+		figcaption {
+			flex-basis: 60%;
+		}
+	}
+
+	&[data-type="content-overlay"] {
+		position: relative;
+		figcaption {
+			height: 50%;
+			position: absolute;
+			top: 50%;
+			align-content: center;
+		}
+	}
+
+	&[data-type="content-left"] {
+		display: flex;
+		flex-flow: row-reverse;
+
+		.ImageWrapper {
+			flex-basis: 60%;
+			img {
+				height: 100%;
+			}
+		}
+		figcaption {
+			flex-basis: 40%;
+		}
+	}
+
+	&[data-type="content-bottom"] {
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	&[data-type="video-card"] {
+		display: flex;
+		gap: 2rem;
+
+		.ImageWrapper {
+			flex-basis: 40%;
+			position: relative;
+			.PlayIcon {
+				display: inline;
+				position: absolute;
+				left: calc(50% - 2rem / 2);
+				top: 35%;
+			}
+		}
+		figcaption {
+			flex-basis: 60%;
+		}
+	}
+}

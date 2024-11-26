@@ -1,0 +1,11 @@
+.Button {
+	padding: 10px 20px;
+	border-radius: 5px;
+	&[data-type="primary"] {
+		background-color: var(--primary-color);
+		color: white;
+	}
+
+	&[data-type="nuetral"] {
+	}
+}

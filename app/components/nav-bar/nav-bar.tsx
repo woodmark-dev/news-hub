@@ -24,8 +24,8 @@ export default function NavBar() {
 					</Link>
 				</li>
 				<li>
-					<Link href="/sport" data-active={state("/sport")}>
-						Sport
+					<Link href="/sports" data-active={state("/sports")}>
+						Sports
 					</Link>
 				</li>
 				<li>
