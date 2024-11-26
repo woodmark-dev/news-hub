@@ -1,0 +1,15 @@
+.CategoryList {
+	margin: 0px var(--site-margin);
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2rem;
+
+	.Category {
+		flex-basis: calc(100% / 3 - (4rem / 3));
+		h4 {
+			text-align: center;
+			font-weight: 400;
+			text-transform: capitalize;
+		}
+	}
+}

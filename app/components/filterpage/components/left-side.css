@@ -1,0 +1,28 @@
+.left-section {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+
+	header {
+		display: flex;
+		align-items: center;
+		gap: 1rem;
+		h4 {
+			margin: 0px;
+			font-weight: 400;
+		}
+		button {
+			text-transform: capitalize;
+			font-size: var(--h6);
+		}
+	}
+	.left-side-card {
+		.Content {
+			h3 {
+				margin: 0px;
+				font-size: var(--h4);
+				font-weight: 400;
+			}
+		}
+	}
+}

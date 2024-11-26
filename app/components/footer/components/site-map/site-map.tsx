@@ -7,7 +7,7 @@ import XIcon from "./media-icons/x";
 export default function SiteMap() {
 	return (
 		<div className="SiteMap">
-			<Link href="#">About Us</Link>
+			<Link href="/about-us">About Us</Link>
 			<Link href="#">Contact Us</Link>
 			<Link href="#">Privacy Policy</Link>
 			<Link href="#">Editorial Guideline</Link>

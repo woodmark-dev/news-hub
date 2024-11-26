@@ -1,4 +1,6 @@
-.Footer {
+.AboutUsPage {
+	color: black;
 	display: flex;
 	flex-direction: column;
+	gap: 3rem;
 }

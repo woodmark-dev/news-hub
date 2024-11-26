@@ -1,0 +1,24 @@
+.MidSection {
+	margin: 0px var(--site-margin);
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+
+	.BottomSection {
+		display: flex;
+
+		.LeftSide {
+			flex-basis: 60%;
+			align-content: center;
+			p {
+				font-size: var(--h1);
+				font-weight: 500;
+				color: var(--primary-color);
+			}
+		}
+
+		.RightSide {
+			flex-basis: 40%;
+		}
+	}
+}

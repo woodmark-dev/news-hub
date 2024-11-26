@@ -1,0 +1,10 @@
+.SubNews {
+	margin: 0px var(--site-margin);
+	header {
+		h4 {
+			font-weight: 400;
+			text-transform: capitalize;
+			text-align: center;
+		}
+	}
+}

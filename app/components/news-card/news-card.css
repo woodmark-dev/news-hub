@@ -43,10 +43,27 @@
 	}
 
 	&[data-type="content-bottom"] {
-		height: 100%;
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
+	}
+
+	&[data-type="content-top"] {
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: space-between;
+		/* remove when you find images that fit well for category page */
+		height: 100%;
+
+		.ImageWrapper {
+			/* remove when you find images that fit well for category page */
+			height: 100%;
+			img {
+				max-width: 100%;
+				/* remove when you find images that fit well for category page */
+				height: 100%;
+			}
+		}
 	}
 
 	&[data-type="video-card"] {

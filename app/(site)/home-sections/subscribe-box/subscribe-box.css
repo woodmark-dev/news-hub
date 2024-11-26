@@ -1,6 +1,7 @@
 .SubscribeBox {
 	margin: 0px var(--site-margin);
 	color: white;
+	margin-bottom: 3rem;
 
 	.BoxWrapper {
 		display: grid;

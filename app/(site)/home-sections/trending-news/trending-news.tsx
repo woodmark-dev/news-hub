@@ -82,6 +82,7 @@ export default function TrendingNews() {
 								link={link}
 								heading={heading}
 								date={date}
+								key={imgSrc}
 							/>
 						);
 					})}

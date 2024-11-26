@@ -7,9 +7,7 @@ import SearchIcon from "./icons/search";
 
 export default function NavBar() {
 	const pathname = usePathname();
-
 	const state = (url: string) => (pathname == url ? "active" : "notActive");
-	console.log(state("/"));
 	return (
 		<div className="NavBar">
 			<ul>
