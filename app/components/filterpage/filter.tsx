@@ -12,9 +12,9 @@ const Filter = () => {
         <header className="header">
           <div className="top">
             <div className="menu">
-              <Button label="Filter" />
-              <Button label="Most Popular" />
-              <Button label="Most Recent" />
+              <Button text="Filter" type="primary"  />
+              <Button text="Most Popular" type="primary" />
+              <Button text="Most Recent" type="primary" />
             </div>
             <h2 className="content">Featured Contents</h2>
           </div>

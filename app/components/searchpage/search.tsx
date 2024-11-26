@@ -59,7 +59,7 @@ const SearchPage = () =>{
 </main>
 
      
-      <Button  label="SUBSCRIBE TO OUR NEWSLETTER"/>
+      <Button  text="SUBSCRIBE TO OUR NEWSLETTER" type="primary" />
       
     </div>
   );
