@@ -1,0 +1,55 @@
+.TheTeam {
+	margin: 0px var(--site-margin);
+	display: flex;
+
+	.LeftSide {
+		flex-basis: 60%;
+		padding-right: 10rem;
+
+		.PhotoGroup {
+			display: flex;
+			flex-direction: column;
+			transform: rotate(-45deg);
+			.TopPhoto {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				position: relative;
+
+				.TeamPhoto {
+					align-content: end;
+					position: relative;
+					bottom: -1.5rem;
+					transform: rotate(45deg);
+				}
+			}
+
+			.BottomPhotos {
+				display: flex;
+				justify-content: center;
+				gap: 0.5rem;
+
+				.TeamPhoto {
+					transform: rotate(45deg);
+				}
+			}
+		}
+	}
+
+	.RightSide {
+		flex-basis: 40%;
+		align-content: center;
+		header {
+			h2 {
+				margin: 0px;
+				text-align: center;
+				margin-bottom: 1rem;
+				font-weight: 400;
+				text-transform: uppercase;
+			}
+		}
+		p {
+			margin-bottom: 0.5rem;
+		}
+	}
+}

@@ -13,6 +13,9 @@ export default function FilterButton() {
 			<Link href="/all-categories">
 				<Button type={state("/all-categories")} text="all categories" />
 			</Link>
+			<Link href="/search">
+				<Button type={state("/search")} text="search news" />
+			</Link>
 			<Link href="/filter">
 				<Button type={state("/filter")} text="filter news" />
 			</Link>

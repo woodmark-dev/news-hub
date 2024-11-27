@@ -1,0 +1,38 @@
+.TeamPhoto {
+	margin: 0px;
+	display: grid;
+	width: 12rem;
+	grid-template-areas: "a";
+	.ImageWrapper {
+		grid-area: a;
+
+		img {
+			border-radius: 50%;
+		}
+	}
+
+	figcaption {
+		grid-area: a;
+		align-content: end;
+		justify-content: center;
+		text-align: center;
+		padding-bottom: 2.5rem;
+		color: white;
+		font-weight: 800;
+
+		div {
+			background-color: rgba(0, 0, 0, 0.456);
+			margin: 0px 1.9rem;
+
+			p {
+				&:first-of-type {
+					font-size: calc(var(--h6) * 0.8);
+				}
+
+				&:nth-of-type(2) {
+					font-size: calc(var(--h6) * 0.6);
+				}
+			}
+		}
+	}
+}
