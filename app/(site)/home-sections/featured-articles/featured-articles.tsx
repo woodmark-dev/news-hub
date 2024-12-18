@@ -21,7 +21,7 @@ const featuredArticles: {
 		link: "#",
 		date: "1 hr ago",
 		summary:
-			"Proin placerat quis sem a venenatis. Nullam sit amet diam eu libero lobortis laoreet. Praesent non ultrices lorem, id tristique sapien. Etiam interdum a ex volutpat mollis.",
+			"African athletes continue to dominate sports like athletics, football, and cycling on the global stage. Countries like Kenya, Ethiopia, and Nigeria are producing top-tier talent who inspire millions.",
 	},
 
 	{
@@ -32,7 +32,7 @@ const featuredArticles: {
 		link: "#",
 		date: "1 hr ago",
 		summary:
-			"Proin placerat quis sem a venenatis. Nullam sit amet diam eu libero lobortis laoreet. Praesent non ultrices lorem, id tristique sapien. Etiam interdum a ex volutpat mollis.",
+			"Africa is embracing renewable energy solutions, with countries like Morocco, South Africa, and Kenya investing in solar and wind power to address energy shortages and promote sustainability.",
 	},
 
 	{
@@ -43,7 +43,7 @@ const featuredArticles: {
 		link: "#",
 		date: "1 hr ago",
 		summary:
-			"Proin placerat quis sem a venenatis. Nullam sit amet diam eu libero lobortis laoreet. Praesent non ultrices lorem, id tristique sapien. Etiam interdum a ex volutpat mollis.",
+			"African businesses are leveraging technology to drive innovation. From mobile banking in Kenya to e-commerce platforms in Nigeria, digital transformation is shaping Africa’s future economy.",
 	},
 ];
 

@@ -9,6 +9,8 @@
     border-top: 1px solid var(--black);
   }
 
+ 
+
   .top {
     display: flex;
     justify-content: space-between;
@@ -17,7 +19,7 @@
   .top .content {
     font-size: 16px;
     font-weight: 600;
-    margin-right: 120px;
+    margin-right: 180px;
   }
 
   .menu {
@@ -54,8 +56,9 @@
 
     .vertical {
       border-right: 1px solid var(--black);
-      margin-top: -7.4%;
+      margin-top: -5.8%;
       margin-bottom: -4%;
+      margin-right: 5% ;
     }
   }
 }
@@ -87,6 +90,7 @@
   flex: 1;
   background-color: #ffffff;
   padding: 1rem;
+  
 
   .featured {
     display: flex;

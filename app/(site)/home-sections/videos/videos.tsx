@@ -17,7 +17,7 @@ const videoNewsList: {
 		imgSrc: "/videos/first.png",
 		category: "Lifestyle",
 		summary:
-			"Proin placerat quis sem a venenatis. Nullam sit amet diam eu libero ",
+			"Africa’s breathtaking landscapes and natural wonders attract global travelers. ",
 		author: "Adejola Pelumi",
 	},
 	{
@@ -26,7 +26,7 @@ const videoNewsList: {
 		imgSrc: "/videos/second.png",
 		category: "Food",
 		summary:
-			"Proin placerat quis sem a venenatis. Nullam sit amet diam eu libero ",
+			"African cuisine, with iconic dishes like jollof rice and tagine, is gaining worldwide acclaim. ",
 		author: "Adejola Pelumi",
 	},
 	{
@@ -35,7 +35,7 @@ const videoNewsList: {
 		imgSrc: "/videos/third.png",
 		category: "Real Estates",
 		summary:
-			"Proin placerat quis sem a venenatis. Nullam sit amet diam eu libero ",
+			"Eco-friendly housing solutions are transforming urban living in African cities.",
 		author: "Adejola Pelumi",
 	},
 ];

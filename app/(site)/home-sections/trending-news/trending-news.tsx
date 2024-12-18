@@ -16,7 +16,7 @@ const trendingNews: {
 		date: "November 10 2024",
 		link: "#",
 		summary:
-			"Proin placerat quis sem a venenatis. Nullam sit amet diam eu libero lobortis laoreet. Praesent non ultrices lorem, id tristique sapien. Etiam interdum a ex volutpat mollis.",
+			"African youth are leading climate protests to demand sustainable policies and climate justice.",
 	},
 	{
 		imgSrc: "/trending-images/Rectangle10.png",
@@ -25,7 +25,7 @@ const trendingNews: {
 		date: null,
 		link: "#",
 		summary:
-			"Proin placerat quis sem a venenatis. Nullam s id tristique sapien. Etiam inter.",
+			"Africa's tech ecosystem is booming, with cities like Lagos, Nairobi, and Cape Town emerging as tech hubs. ",
 	},
 	{
 		imgSrc: "/trending-images/Rectangle11.png",
@@ -34,7 +34,7 @@ const trendingNews: {
 		date: null,
 		link: "#",
 		summary:
-			"Proin placerat quis sem a venenatis. Nullam s id tristique sapien. Etiam inter.",
+			"African nations are preserving cultural heritage through festivals, art, and tourism.",
 	},
 	{
 		imgSrc: "/trending-images/Rectangle13.png",
@@ -43,7 +43,7 @@ const trendingNews: {
 		date: null,
 		link: "#",
 		summary:
-			"Proin placerat quis sem a venenatis. Nullam s id tristique sapien. Etiam inter.",
+			"Rising urban crime in African cities is prompting initiatives to enhance security and reduce unemployment.",
 	},
 	{
 		imgSrc: "/trending-images/Rectangle14.png",
@@ -52,14 +52,14 @@ const trendingNews: {
 		date: null,
 		link: "#",
 		summary:
-			"Proin placerat quis sem a venenatis. Nullam s id tristique sapien. Etiam inter.",
+			"Africa remains a top travel choice with stunning wildlife, cultural landmarks, and beautiful beaches.",
 	},
 ];
 
 export default function TrendingNews() {
 	return (
 		<section className="TrendingNews">
-			<h2>Trending News</h2>
+			<h2>Trending</h2>
 			<div className="NewsList">
 				<div className="TopNews">
 					<TrendingNewsCard

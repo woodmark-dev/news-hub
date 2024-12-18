@@ -13,7 +13,7 @@ const recentArticles: {
 		id: 1,
 		imgSrc: "/featured-images/Rectangle24.png",
 		summary:
-			"Proin placerat quis sem a venenatis. Nullam sit amet diam eu libero lobortis laoreet. Praese",
+			"Major African cities are upgrading infrastructure to support rapid urbanization and future growth.",
 		link: "#",
 		date: "1 hr ago",
 		imgAlt: "recent articles image",
@@ -22,7 +22,7 @@ const recentArticles: {
 		id: 2,
 		imgSrc: "/featured-images/Rectangle25.png",
 		summary:
-			"Proin placerat quis sem a venenatis. Nullam sit amet diam eu libero lobortis laoreet. Praese",
+			"Women’s football is experiencing significant growth and recognition across African countries.",
 		link: "#",
 		date: "1 hr ago",
 		imgAlt: "recent articles image",
@@ -31,7 +31,7 @@ const recentArticles: {
 		id: 3,
 		imgSrc: "/featured-images/Rectangle26.png",
 		summary:
-			"Proin placerat quis sem a venenatis. Nullam sit amet diam eu libero lobortis laoreet. Praese",
+			"Digital education platforms are transforming learning and improving access for African families.",
 		link: "#",
 		date: "1 hr ago",
 		imgAlt: "recent articles image",

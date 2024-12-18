@@ -16,7 +16,7 @@ const entertainmentNews: {
 		category: "Entertainment",
 		heading: "Tems makes history after securing 3 nominations for 67th Grammys",
 		summary:
-			"Proin placerat quis sem a venenatis. Nullam sit amet diam eu libero lobortis laoreet. Praesent non ultrices lorem, id tristique sapien. Etiam interdum a ex volutpat mollis.",
+			"Nigerian singer-songwriter Tems continues to break records, securing nominations at the 67th Grammy Awards. Her success highlights the growing influence of African music on the global stage.",
 		author: "Adejola Pelumi",
 		imgAlt: "Entertainment section photo",
 		imgSrc: "/entertainment/tems.png",
@@ -26,7 +26,7 @@ const entertainmentNews: {
 		category: null,
 		heading: "Fireboy DML & Asake’s ‘Bandana’ earns silver certification",
 		summary:
-			"Proin placerat quis sem a venenatis. Nullam sit amet diam eu libero lobortis laoreet. Praese",
+			"Afrobeat stars Fireboy DML and Asake’s hit single ‘Bandana’ has achieved global recognition, marking a significant milestone for African artists in the international music scene.",
 		author: "Adejola Pelumi",
 		imgAlt: "Entertainment section photo",
 		imgSrc: "/entertainment/dml.png",

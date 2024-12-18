@@ -18,8 +18,7 @@ export default function SubscribeBox() {
 					<div className="Copy">
 						<h4>Subscribe to Our Newsletter</h4>
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-							maximus vehicula pretium.
+						Subscribe to stay informed on Africa's latest innovations, cultural stories, and breaking news delivered straight to your inbox.
 						</p>
 					</div>
 					<div className="CTA">

@@ -14,37 +14,37 @@ const sportsUpdates: {
 		link: "#",
 		category: "tennis",
 		heading: "Gauff wins WTA Title",
-		imgAlt: "sports update",
+		imgAlt: "Coco Gauff lifting the WTA trophy",
 		imgSrc: "/sport-updates/sixth.png",
 		summary:
-			"Proin placerat quis sem a venenatis. Nullam sit amet diam eu libero lobortis laoreet. Praesent non ultrices lorem, id tristique sapien. Etiam interdum a ex volutpat mollis.",
+			"American tennis star Coco Gauff claims her first WTA title after defeating a top-ranked African player in a thrilling final match.",
 	},
 	{
 		link: "#",
-		category: null,
-		heading: null,
-		imgAlt: "sports update",
+		category: "football",
+		heading: "Super Eagles Shine in AFCON",
+		imgAlt: "Super Eagles celebrating a goal",
 		imgSrc: "/sport-updates/seventh.png",
 		summary:
-			"Proin placerat quis sem a venenatis. Nullam sit amet diam eu libero lobortis laoreet. Praesent non ultrices lorem, id tristique sapien. Etiam interdum a ex volutpat mollis.",
+			"Nigeria's Super Eagles secure a crucial victory in the African Cup of Nations, boosting their chances for the finals.",
 	},
 	{
 		link: "#",
-		category: null,
-		heading: null,
-		imgAlt: "sports update",
+		category: "athletics",
+		heading: "Kenya Dominates Marathon Races",
+		imgAlt: "Kenyan athlete crossing the finish line",
 		imgSrc: "/sport-updates/eigth.png",
 		summary:
-			"Proin placerat quis sem a venenatis. Nullam sit amet diam eu libero lobortis laoreet. Praesent non ultrices lorem, id tristique sapien. Etiam interdum a ex volutpat mollis.",
+			"Kenyan runners once again dominate the global marathon circuit, finishing in record-breaking times across major events.",
 	},
 	{
 		link: "#",
-		category: null,
-		heading: null,
-		imgAlt: "sports update",
+		category: "boxing",
+		heading: "Nigerian Boxer Wins International Title",
+		imgAlt: "Nigerian boxer celebrating with a title belt",
 		imgSrc: "/sport-updates/ninth.png",
 		summary:
-			"Proin placerat quis sem a venenatis. Nullam sit amet diam eu libero lobortis laoreet. Praesent non ultrices lorem, id tristique sapien. Etiam interdum a ex volutpat mollis.",
+			"Nigerian boxing champion secures a prestigious international title, showcasing African talent on the global stage.",
 	},
 ];
 
